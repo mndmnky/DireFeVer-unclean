@@ -1,10 +1,7 @@
 use crate::dfvs_instance::DFVSInstance;
 use crate::digraph::RebuildDigraph;
-use crate::statistics::RuleStats;
-use fxhash::{FxHashSet};
+use fxhash::FxHashSet;
 use std::collections::HashSet;
-use std::cmp::max;
-use crate::interrupter::Interrupter;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Rule {

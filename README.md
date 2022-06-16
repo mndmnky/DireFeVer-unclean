@@ -1,6 +1,6 @@
-# DireFeVerSS
+# DireFeVer
 
-## DIREcted FEedback VERtex Set Solver
+## DIREcted FEedback VERtex set solver
 
 A solver for the directed vertex feedback set problem. This library provides the following algorithms and data structures:
 
